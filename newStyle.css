@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #fff !important;
+    background-color: #f7f7f7 !important;
     font-size: 18px;
   }
   p{
@@ -299,3 +299,16 @@ a.nav-link:hover{
  .footer-copyright{
   font-size: 12px; color:#999999;
  }
+ .block_white_bg{
+background-color: #fff!important;
+ }
+ .block_grey1_bg{
+  background-color: #e7e7e7!important;
+   }
+ .what_we_do{
+  margin-top: 50px;
+ }
+ .accordion-button{
+  background-color: #f7f7f7 !important;
+ }
+ 
