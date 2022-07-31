@@ -320,4 +320,127 @@ background-color: #fff!important;
  .ourStoryBlk{
   margin-top: 120px;
  }
+ /*Gallery Banner animation starts here*/
+ 
+body .hearts_wrapper {
+  width: 400px;
+  height: 350px;
+  margin: 0 auto;
+}
+body .hearts_wrapper .heart {
+  text-decoration: none;
+  width: 150px;
+  height: 150px;
+  display: block;
+  position: relative;
+}
+body .hearts_wrapper .heart.green {
+  left: 50px;
+  animation: parent-anim 5s linear infinite;
+  transform-origin: 50% 120px;
+}
+body .hearts_wrapper .heart.green  
+div {
+  font-size: 140px;
+  color: rgba(94, 224, 163, 0.8);
+  animation: child-anim 5s linear infinite;
+}
+body .hearts_wrapper .heart.pink {
+  left: 30px;
+  margin-top: -220px;
+  animation: parent-anim-2 5s linear infinite;
+  transform-origin: 50% 125px;
+}
+body .hearts_wrapper .heart.pink 
+div {
+  font-size: 140px;
+  color: rgba(232, 143, 201, 0.8);
+  animation: child-anim-2 5s linear infinite;
+}
+body .hearts_wrapper .heart.blue {
+  margin-top: -250px;
+  left:  20px;
+  animation: parent-anim 5s linear infinite;
+  transform-origin: 20% 120px;
+}
+body .hearts_wrapper .heart.blue 
+div {
+  font-size: 140px;
+  color: rgba(134, 193, 232, 0.8);
+  animation: child-anim 5s linear infinite;
+}
+body .hearts_wrapper .heart.purple {
+  margin-top: -180px;
+  left: 190px;
+  animation: parent-anim 5s linear infinite;
+  transform-origin: 40% 150px;
+}
+body .hearts_wrapper .heart.purple 
+div {
+  font-size: 140px;
+  color: rgba(189, 138, 234, 0.8);
+  animation: child-anim 5s linear infinite;
+}
+body .hearts_wrapper .heart.small {
+  height: 200px;
+  width: 200px;
+}
+body .hearts_wrapper .heart.small.yellow {
+  margin-top: - 0px;
+  left: 270px;
+  animation: parent-anim 5s linear infinite;
+  transform-origin: 40% 150px;
+}
+body .hearts_wrapper .heart.small.yellow  
+div {
+  font-size: 100px;
+  color: rgba(234, 229, 131, 0.8);
+  animation: child-anim 5s linear infinite;
+}
+body .hearts_wrapper .heart.small.orange {
+  margin-top: -10px;
+  left:  80px;
+  animation: parent-anim 5s linear infinite;
+  transform-origin: 40% 150px;
+}
+body .hearts_wrapper .heart.small.orange 
+div {
+  font-size: 100px;
+  color: rgba(232, 158, 129, 0.8);
+  animation: child-anim 5s linear infinite;
+}
+@keyframes parent-anim {
+  0% {
+    transform: rotate(0);
+ }
+  100% {
+    transform: rotate(360deg);
+ }
+}
+@keyframes parent-anim-2 {
+  0% {
+    transform: rotate(0);
+ }
+  100% {
+    transform: rotate(-360deg);
+ }
+}
+@keyframes child-anim {
+  0% {
+    transform: rotate(0);
+ }
+  100% {
+    transform: rotate(-360deg);
+ }
+}
+@keyframes child-anim-2 {
+  0% {
+    transform: rotate(0);
+ }
+  100% {
+    transform: rotate(360deg);
+ }
+}
+ 
+  /*Gallery Banner animation ends here*/
  
