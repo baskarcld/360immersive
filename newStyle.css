@@ -4,7 +4,7 @@ body {
     font-size: 18px;
   }
   p{
-    color:#333;
+    color:#333; line-height: 21px;
   }
   .logo{
     height: 100px;
@@ -22,8 +22,11 @@ body {
   h6{
     font-size: 15px; color:#32c9b0; text-transform: uppercase;
   }
+  .bannerTxt h6{
+    margin-top: 15%;
+  }
   .bannerTxt h2{
-    font-size: 26px; margin-top: 30%;
+    font-size: 26px;
   }
   .bannerTxt p{
     font-size: 14px;
@@ -310,5 +313,11 @@ background-color: #fff!important;
  }
  .accordion-button{
   background-color: #f7f7f7 !important;
+ }
+ .aboutusBanner{
+  width: 50%;
+ }
+ .ourStoryBlk{
+  margin-top: 120px;
  }
  
