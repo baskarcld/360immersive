@@ -208,17 +208,27 @@ max-height: 120px;
  .btmFrmBg{
   background: url('images/form_bg.png') no-repeat 0 0;
   width: 100%;
-   background-size: contain;
+   background-size: cover;
    background-position: center;
    height: 330px;
  }
+ .btmFrmBgAlign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btmFrmBgALign .formDiv {
+  width: 100px;
+  height: 100px;
+}
  .form-inline .form-group{
   display: inline-block; background-color: #fff; border:#333 1px solid;
  }
  .btmFrmBg h2{
   text-align: center; width: 80%; margin:50px auto 0; color: #fff;
  }
- .form-inline{margin: 70px auto; width: 50%;}
+ .form-inline{margin: 70px auto;  }
 
  .btn-primary {
   background-color: #32c9b0 !important;
@@ -471,3 +481,41 @@ div {
  .margintopseventyFive{
   margin-top: 75px;
  }
+
+ @media only screen and (min-width: 768px) {
+  .form-group    {
+    margin-bottom: 10px;
+  }
+  .form-inline {
+    margin: 70px auto;
+     
+    position:relative;
+}
+ 
+}
+ @media only screen and (max-width: 600px) {
+  .form-group    {
+    margin-bottom: 10px;
+  }
+  .form-inline {
+    margin: 50px auto;
+    width: 100%;
+    position:relative;
+}
+.form-inline .form-group {
+  display: inherit;
+}
+  button{
+    top: 90%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 20px auto;
+    position: absolute;
+    height: 40px; 
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  
+}
