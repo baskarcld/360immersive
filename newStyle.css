@@ -2,7 +2,16 @@ body {
     margin: 0;
     background-color: #f7f7f7 !important;
     font-size: 18px;
+    font-family: 'montserrat_alternatesregular'!important;
   }
+   
+  @font-face {
+    font-family: 'montserrat_alternatesregular';
+    src: url('montserratalternates-regular-webfont.woff2') format('woff2'),
+         url('montserratalternates-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
   p{
     color:#333; line-height: 21px;
   }
@@ -18,6 +27,7 @@ body {
   }
   h2{
     font-size: 26px;
+    font-weight: bold;
   }
   h6{
     font-size: 15px; color:#32c9b0; text-transform: uppercase;
@@ -142,7 +152,7 @@ body {
   background: #fff;
   box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-padding: 14px 80px 18px 36px;
+padding: 14px 40px 18px 36px;
 cursor: pointer;
 }
 
@@ -443,4 +453,19 @@ div {
 }
  
   /*Gallery Banner animation ends here*/
- 
+
+  .polyImg{
+    position: absolute;
+    top:0%;
+    right: 20%;
+    width: 30%;
+  }
+  .mainBanner{
+    width: 75%;
+  }
+ .margintopfifty{
+  margin-top: 50px;
+ }
+ .margintopseventyFive{
+  margin-top: 75px;
+ }
