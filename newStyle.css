@@ -43,15 +43,15 @@ body {
   }
   .bannerAlign{
     float:right;
-    position: absolute; right:0;
+    position: relative; right:0;
   }
   /*Banner styles*/
-  body {
+  /* body {
     background-color: #434c50;
     min-height: 100vh;
     font: normal 16px sans-serif;
     padding: 40px 0;
-}
+} */
 
 .container.gallery-container {
     background-color: #fff;
@@ -133,7 +133,7 @@ body {
     }
 }
 .tz-gallery{
-  margin-top: 180px; position: relative;
+  margin-top: 120px; position: relative;
 }
 
 .tz-gallery.portfolio{
@@ -457,11 +457,13 @@ div {
   .polyImg{
     position: absolute;
     top:0%;
-    right: 20%;
+    right: 0%;
     width: 30%;
   }
   .mainBanner{
-    width: 75%;
+    width: 95%;
+    position: relative;
+    right: -5%;
   }
  .margintopfifty{
   margin-top: 50px;
