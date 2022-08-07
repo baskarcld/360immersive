@@ -649,6 +649,40 @@ ul.contactBtmList li{
 
 ul.contactBtmList li img{width: 70px; margin: 0 auto;  }
 ul.contactBtmList li h5{font-size: 20px; color: #333;}
+.text-righAlign{
+  text-align: right;
+}
+.sol_img{
+  width: 80px;
+}
+ul.sol_icon1List{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  list-style: none;
+}
+ul.sol_icon1List li{
+  margin: 0 0 40px 0;
+  padding: 0 0 0 100px;
+  list-style: none;
+}
+ul.sol_icon1List li.sol_icon1  {
+  background-image: url('./images/prioritize_icon.png');
+  background-position: 0 0 ;
+  background-repeat: no-repeat; background-size:80px;
+}
+ul.sol_icon1List li.sol_icon2  {
+  background-image: url('./images/eliminate_icon.png');
+  background-position: 0 0 ;
+  background-repeat: no-repeat; 
+  background-size:80px;
+}
+ul.sol_icon1List li.sol_icon3  {
+  background-image: url('./images/comparison_icon.png');
+  background-position: 0 0 ;
+  background-repeat: no-repeat; background-size:80px;
+}
+
+/***Media*/
 
  @media only screen and (min-width: 768px) {
   .form-group    {
