@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="87" height="88" viewBox="0 0 87 88">
+  <defs>
+    <clipPath id="clip-path">
+      <ellipse id="Ellipse_581" data-name="Ellipse 581" cx="43.5" cy="44" rx="43.5" ry="44" transform="translate(1405.534 1256.608)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_8" data-name="Mask Group 8" transform="translate(-1405.534 -1256.608)" clip-path="url(#clip-path)">
+    <path id="location_on_FILL1_wght400_GRAD0_opsz48" d="M50.849,50.881a7.748,7.748,0,0,0,5.479-13.226A7.748,7.748,0,0,0,45.37,48.612,7.465,7.465,0,0,0,50.849,50.881Zm.111,44.051a4.524,4.524,0,0,1-1.439-.221,3.919,3.919,0,0,1-1.217-.664q-16.491-14.5-24.682-26.9t-8.19-23.132q0-16.6,10.681-26.453a35.985,35.985,0,0,1,49.474,0q10.681,9.851,10.681,26.453,0,10.736-8.19,23.132t-24.682,26.9a4.1,4.1,0,0,1-1.162.664,3.7,3.7,0,0,1-1.273.221Z" transform="translate(1398.184 1249.284)" fill="#de5fe2"/>
+  </g>
+</svg>
