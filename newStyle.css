@@ -505,14 +505,14 @@ div {
 .form-inline .form-group {
   display: inherit;
 }
-  button{
+  /* button{
     top: 90%;
     right: 0;
     left: 0;
     bottom: 0;
     margin: 20px auto;
-    position: absolute;
+    position: inherit;
     height: 40px; 
     width: 50%;
-  }
+  } */
 }
