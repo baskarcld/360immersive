@@ -29,6 +29,10 @@ body {
     font-size: 26px;
     font-weight: bold;
   }
+  h5{
+    font-size: 20px;
+    font-weight: bold;
+  }
   h6{
     font-size: 15px; color:#32c9b0; text-transform: uppercase;
   }
@@ -280,6 +284,72 @@ a.nav-link:hover{
   height: 150px;
   width: 150px;
 }
+.colorCircleBg1{
+  background-image: url('./images/Colored_Circle_1.svg');
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: contain;
+  position: absolute;
+  top: -110px;
+  left:-30px;
+  height: 150px;
+  width: 150px;
+}
+.colorCircleBg2{
+  background-image: url('./images/Colored_Circle_2.svg');
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: contain;
+  position: absolute;
+  top: -110px;
+  left:-30px;
+  height: 150px;
+  width: 150px;
+}
+.colorCircleBg3{
+  background-image: url('./images/Colored_Circle_3.svg');
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: contain;
+  position: absolute;
+  top: -110px;
+  left:-30px;
+  height: 150px;
+  width: 150px;
+}
+.colorCircleBg4{
+  background-image: url('./images/Colored_Circle_4.svg');
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: contain;
+  position: absolute;
+  top: -110px;
+  left:-30px;
+  height: 150px;
+  width: 150px;
+}
+.colorCircleBg5{
+  background-image: url('./images/Colored_Circle_5.svg');
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: contain;
+  position: absolute;
+  top: -110px;
+  left:-30px;
+  height: 150px;
+  width: 150px;
+}
+.colorCircleBg6{
+  background-image: url('./images/Colored_Circle_6.svg');
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: contain;
+  position: absolute;
+  top: -110px;
+  left:-30px;
+  height: 150px;
+  width: 150px;
+}
 .ProcessBlock p{
   padding-right: 50px;
 }
@@ -335,10 +405,11 @@ background-color: #fff!important;
   background-color: #f7f7f7 !important;
  }
  .aboutusBanner{
-  width: 50%;
+  width: 60%;
+  float: inherit;
  }
  .ourStoryBlk{
-  margin-top: 120px;
+  margin-top: 80px;
  }
  /*Gallery Banner animation starts here*/
  
