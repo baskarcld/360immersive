@@ -112,6 +112,9 @@ img {
   h6{
     font-size: 15px; color:#32c9b0; text-transform: uppercase;
   }
+  .bannerTxt.Align{
+    padding-top: 10%;
+  }
   .bannerTxt h6{
     margin-top: 15%;
   }
@@ -339,6 +342,17 @@ a.nav-link:hover{
 .ProcessBlock{
   margin-top: 150px;position: relative;
 }
+.ass_bg_green{
+  background-image: url('./images/Color_Circle_1.svg');
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: contain;
+  position: absolute;
+  top: -110px;
+  left:-45px;
+  height: 150px;
+  width: 150px;
+}
 .ass_bg{
   background-image: url('./images/process_capacity.svg');
   background-repeat: no-repeat;
@@ -346,7 +360,7 @@ a.nav-link:hover{
   background-size: contain;
   position: absolute;
   top: -110px;
-  left:-30px;
+  left:-45px;
   height: 150px;
   width: 150px;
 }.ass_bg2{
@@ -356,7 +370,7 @@ a.nav-link:hover{
   background-size: contain;
   position: absolute;
   top: -110px;
-  left:-30px;
+  left:-45px;
   height: 150px;
   width: 150px;
 }
@@ -367,7 +381,7 @@ a.nav-link:hover{
   background-size: contain;
   position: absolute;
   top: -110px;
-  left:-30px;
+  left:-45px;
   height: 150px;
   width: 150px;
 }
@@ -378,7 +392,7 @@ a.nav-link:hover{
   background-size: contain;
   position: absolute;
   top: -110px;
-  left:-30px;
+  left:-45px;
   height: 150px;
   width: 150px;
 }
@@ -389,7 +403,7 @@ a.nav-link:hover{
   background-size: contain;
   position: absolute;
   top: -110px;
-  left:-30px;
+  left:-45px;
   height: 150px;
   width: 150px;
 }
@@ -400,7 +414,7 @@ a.nav-link:hover{
   background-size: contain;
   position: absolute;
   top: -110px;
-  left:-30px;
+  left:-45px;
   height: 150px;
   width: 150px;
 }
@@ -411,7 +425,7 @@ a.nav-link:hover{
   background-size: contain;
   position: absolute;
   top: -110px;
-  left:-30px;
+  left:-45px;
   height: 150px;
   width: 150px;
 }
@@ -422,7 +436,7 @@ a.nav-link:hover{
   background-size: contain;
   position: absolute;
   top: -110px;
-  left:-30px;
+  left:-45px;
   height: 150px;
   width: 150px;
 }
@@ -681,7 +695,49 @@ ul.sol_icon1List li.sol_icon3  {
   background-position: 0 0 ;
   background-repeat: no-repeat; background-size:80px;
 }
+.accordion-button::before {
+  content: "-" !important;
+  font-size: 35px;
+  font-weight: normal;
+  background-image: none!important;
+}
+.accordion-button:not(.collapsed)::after {
+  content: "-" !important;
+  font-size: 35px;font-weight: normal;
+  background-image: none!important;
+   
+}
+.accordion-button::after {
+  content: "+" !important;
+  font-size: 25px;
+  background-image: none!important;
+}
 
+.PartnerAlign{
+  padding-top: 18%;
+}
+.abt_txtAlignMiddle{
+  padding-top: 15%;
+}
+.card {
+  padding: 50px 30px 50px 30px;
+  text-align: center;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #333;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #333;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #333;
+}
+.form-group input{
+  opacity: 1;
+}
 /***Media*/
 
  @media only screen and (min-width: 768px) {
