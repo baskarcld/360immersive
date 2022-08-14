@@ -738,6 +738,20 @@ ul.sol_icon1List li.sol_icon3  {
 .imgTopSpace{
   margin-top: 4px;
 }
+.leftGreenBorder{
+  border-left:#32c9b0 4px solid!important;
+  margin-top: 50px 0 0 50px;
+  padding: 0px 50px 0 10px;
+  position: relative;
+  top: 25px; display: inline-block;
+}
+.leftGreenBorder2{
+  border-left:#32c9b0 4px solid!important;
+  margin-top: 0px 0 0 50px;
+  padding: 0px 50px 0 10px;
+  position: relative;
+  top: 0px; display: inline-block;
+}
 /***Media*/
 
  @media only screen and (min-width: 768px) {
@@ -749,7 +763,9 @@ ul.sol_icon1List li.sol_icon3  {
      
     position:relative;
 }
- 
+.text-righAlign{
+  text-align:left;
+}
 }
  @media only screen and (max-width: 600px) {
   .form-group    {
@@ -773,4 +789,7 @@ ul.sol_icon1List li.sol_icon3  {
     height: 40px; 
     width: 50%;
   } */
+  .text-righAlign{
+    text-align:left;
+  }
 }
