@@ -695,16 +695,13 @@ ul.sol_icon1List li.sol_icon3  {
   background-position: 0 0 ;
   background-repeat: no-repeat; background-size:80px;
 }
-.accordion-button::before {
-  content: "-" !important;
-  font-size: 35px;
-  font-weight: normal;
-  background-image: none!important;
-}
+
 .accordion-button:not(.collapsed)::after {
-  content: "-" !important;
-  font-size: 35px;font-weight: normal;
+  content: "x" !important;
+  font-size: 22px;font-weight: normal;
   background-image: none!important;
+  left: -7px; position:relative;
+  top: 5px;
    
 }
 .accordion-button::after {
@@ -737,6 +734,9 @@ ul.sol_icon1List li.sol_icon3  {
 }
 .form-group input{
   opacity: 1;
+}
+.imgTopSpace{
+  margin-top: 4px;
 }
 /***Media*/
 
